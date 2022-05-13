@@ -1,0 +1,44 @@
+{
+  "name": "@react-page/examples",
+  "version": "0.1.0",
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o build && touch build/.nojekyll",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.2",
+    "@react-page/editor": "^4.9.0",
+    "@react-page/plugins-background": "^4.9.0",
+    "@react-page/plugins-divider": "^4.9.0",
+    "@react-page/plugins-html5-video": "^4.9.0",
+    "@react-page/plugins-image": "^4.9.0",
+    "@react-page/plugins-slate": "^4.9.0",
+    "@react-page/plugins-spacer": "^4.9.0",
+    "@react-page/plugins-video": "^4.9.0",
+    "@react-page/react-admin": "^4.9.0",
+    "next": "^12.1.2",
+    "ra-data-fakerest": "3.9.3",
+    "react": "^18.0.0",
+    "react-admin": "^4.0.3",
+    "react-dom": "^18.0.0",
+    "react-github-fork-ribbon": "^0.6.0",
+    "react-katex": "^2.0.2",
+    "react-syntax-highlighter": "^15.3.1",
+    "react-twitter-widgets": "^1.9.5",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^10.0.3",
+    "@types/node": "^17.0.33",
+    "@types/react-syntax-highlighter": "^13.5.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "raw-loader": "4.0.1",
+    "react-admin": "^4.0.3",
+    "typescript": "^4.6.4"
+  }
+}
